@@ -56,7 +56,7 @@ const TicTac = {
 
     highlight(combo) {
         combo.forEach((i) => {
-            document.getElementById("board").children[i].style.color = "red";
+            document.getElementById("board").children[i].style.color = "blue";
         });
     },
 
